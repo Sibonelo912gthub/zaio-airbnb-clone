@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sbonelo Mbambo",
+      "email": "smbambo@123.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593"
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$oUhDGmecQTvwFOLJog1jGemiSHGRWuX/uRCVagZuRpbe84SHoiLzq",
+      "id": 3
+    },
+    {
+      "email": "patient@mail.com",
+      "password": "$2a$10$4v9D1Z.S7cxV0VlreaKx9.RFTiGi3HNqRoD82Ns5Xcro2hj1/6y4i",
+      "id": 4
+    },
+    {
+      "email": "damaers@mail.com",
+      "password": "$2a$10$hSoobrWLvQDr1LJxNopo5.czehFnGIl2v48F4hE8eek4CxlrEJBMe",
+      "id": 5
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2022-02-20",
+      "endDate": "2022-02-21",
+      "userId": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "img": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "R200/night",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    },
+
+    {
+      "id": 2,
+      "img": "https://media.nomadicmatt.com/2018/apartment.jpg",
+      "title": "Penthouse in Bluff",
+      "description": "Enjoy the amazing sights of London with this stunning penthouse",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "R350/night",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "img": "https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg",
+      "title": "3 Bedroom Flat in Durban",
+      "description": "Superhost with a stunning view of the beachside in Sunny Bournemouth",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikja",
+      "street": "Age",
+      "price": "R450/night",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "img": "https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720",
+      "title": "1 Bedroom apartment in Umhlanga",
+      "description": "Superhost with great amenities and a fabolous shopping complex nearby",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "R350/night",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    }
+  ]
+}
+README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sibonelo912gthub/zaio-airbnb-clone.git
+git push -u origin main
